@@ -9,9 +9,7 @@ import androidx.compose.material.Button
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.material.Text
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import com.ae.aj.localnotifications.notification.Balance
 import com.ae.aj.localnotifications.notification.BalanceNotificationService
 import com.ae.aj.localnotifications.ui.theme.AjLocalNotificationsTheme
@@ -37,17 +35,3 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
-//@Composable
-//fun Greeting(name: String) {
-//
-//
-//}
-//
-//@Preview(showBackground = true)
-//@Composable
-//fun DefaultPreview() {
-//    AjLocalNotificationsTheme {
-//        Greeting("Android")
-//    }
-//}
